@@ -1,0 +1,92 @@
+[
+  {
+    "id": "query_001",
+    "query": "contract breach damages construction",
+    "relevant_docs": ["doc_001"],
+    "filters": {
+      "doctrine": "contract",
+      "year": {"$gte": 2020}
+    }
+  },
+  {
+    "id": "query_002", 
+    "query": "negligent misrepresentation financial advisor",
+    "relevant_docs": ["doc_002"],
+    "filters": {
+      "doctrine": "tort",
+      "court": "appeal"
+    }
+  },
+  {
+    "id": "query_003",
+    "query": "property rights zoning regulations takings",
+    "relevant_docs": ["doc_003"],
+    "filters": {
+      "doctrine": "property",
+      "court": "supreme"
+    }
+  },
+  {
+    "id": "query_004",
+    "query": "employment discrimination wrongful termination",
+    "relevant_docs": ["doc_004"],
+    "filters": {
+      "doctrine": "employment",
+      "year": {"$gte": 2022}
+    }
+  },
+  {
+    "id": "query_005",
+    "query": "digital evidence Fourth Amendment search warrant",
+    "relevant_docs": ["doc_005"],
+    "filters": {
+      "doctrine": "criminal",
+      "court": "appeal"
+    }
+  },
+  {
+    "id": "query_006",
+    "query": "patent infringement trade secrets intellectual property",
+    "relevant_docs": ["doc_006"],
+    "filters": {
+      "doctrine": "intellectual_property",
+      "jurisdiction": "federal"
+    }
+  },
+  {
+    "id": "query_007",
+    "query": "child custody best interests relocation",
+    "relevant_docs": ["doc_007"],
+    "filters": {
+      "doctrine": "family",
+      "court": "supreme"
+    }
+  },
+  {
+    "id": "query_008",
+    "query": "business expense deductions executive compensation",
+    "relevant_docs": ["doc_008"],
+    "filters": {
+      "doctrine": "tax",
+      "year": {"$gte": 2020}
+    }
+  },
+  {
+    "id": "query_009",
+    "query": "EPA regulations environmental law Chevron doctrine",
+    "relevant_docs": ["doc_009"],
+    "filters": {
+      "doctrine": "administrative",
+      "jurisdiction": "federal"
+    }
+  },
+  {
+    "id": "query_010",
+    "query": "First Amendment privacy political speech",
+    "relevant_docs": ["doc_010"],
+    "filters": {
+      "doctrine": "constitutional",
+      "court": "supreme"
+    }
+  }
+]

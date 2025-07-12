@@ -1,0 +1,122 @@
+[
+  {
+    "id": "doc_001",
+    "text": "In the matter of Smith v. Johnson Construction Co., the Supreme Court of California held that a material breach of contract occurs when one party's failure to perform substantially defeats the purpose of the contract. The plaintiff, Smith, entered into a construction agreement with Johnson Construction Co. in 2020 for the building of a residential home. The contract specified completion by December 2020, but the defendant failed to complete the work until March 2021, causing significant financial damages to the plaintiff. The court awarded damages of $50,000 for breach of contract, including consequential damages for the delay. This case establishes important precedent regarding the calculation of damages in construction contract disputes.",
+    "metadata": {
+      "title": "Smith v. Johnson Construction Co.",
+      "court": "supreme",
+      "year": 2020,
+      "doctrine": "contract",
+      "case_type": "civil",
+      "jurisdiction": "california"
+    }
+  },
+  {
+    "id": "doc_002", 
+    "text": "The Court of Appeals for the Second Circuit addressed the issue of negligent misrepresentation in the case of Williams v. ABC Financial Services. The plaintiff alleged that the defendant financial advisor provided negligent advice regarding investment strategies, resulting in substantial losses. The court applied the standard for professional negligence, requiring proof that the defendant breached the duty of care owed to the client. The evidence showed that the advisor failed to conduct proper due diligence and recommended high-risk investments without adequate disclosure. The appellate court affirmed the lower court's judgment of $75,000 in damages for professional negligence. This decision reinforces the fiduciary duties of financial advisors and the standards for proving negligent misrepresentation in professional relationships.",
+    "metadata": {
+      "title": "Williams v. ABC Financial Services",
+      "court": "appeal",
+      "year": 2019,
+      "doctrine": "tort",
+      "case_type": "civil",
+      "jurisdiction": "federal"
+    }
+  },
+  {
+    "id": "doc_003",
+    "text": "In the landmark property law case of Green v. City Planning Commission, the Supreme Court ruled on the constitutionality of zoning regulations that restricted property development. The plaintiff challenged the city's zoning ordinance that prohibited commercial development in residential areas, arguing it constituted a regulatory taking without just compensation. The court applied the Penn Central test to determine whether the regulation went too far in restricting property rights. The decision established that zoning regulations must substantially advance legitimate government interests and not deny property owners economically viable use of their land. The court remanded the case for further proceedings to determine appropriate compensation. This case significantly impacts property development law and regulatory takings jurisprudence.",
+    "metadata": {
+      "title": "Green v. City Planning Commission",
+      "court": "supreme",
+      "year": 2021,
+      "doctrine": "property",
+      "case_type": "constitutional",
+      "jurisdiction": "state"
+    }
+  },
+  {
+    "id": "doc_004",
+    "text": "The District Court for the Eastern District of New York decided the employment discrimination case of Martinez v. TechCorp Industries. The plaintiff alleged wrongful termination based on national origin discrimination in violation of Title VII of the Civil Rights Act. The evidence included discriminatory comments by supervisors and disparate treatment compared to similarly situated employees. The court found that the defendant failed to articulate a legitimate, non-discriminatory reason for the termination. The jury awarded $125,000 in compensatory damages and $200,000 in punitive damages. This case demonstrates the application of the McDonnell Douglas burden-shifting framework in employment discrimination cases and the importance of documenting discriminatory conduct.",
+    "metadata": {
+      "title": "Martinez v. TechCorp Industries",
+      "court": "district",
+      "year": 2022,
+      "doctrine": "employment",
+      "case_type": "civil_rights",
+      "jurisdiction": "federal"
+    }
+  },
+  {
+    "id": "doc_005",
+    "text": "In the criminal law case of State v. Thompson, the Court of Appeals addressed the admissibility of digital evidence in drug trafficking prosecutions. The defendant was charged with conspiracy to distribute controlled substances based on encrypted communications seized from his mobile device. The court examined Fourth Amendment protections against unreasonable searches and seizures in the digital context. The decision established guidelines for law enforcement's collection and analysis of digital communications evidence. The court held that the search warrant was sufficiently particular and that the evidence was properly authenticated. The conviction was upheld, but the court emphasized the need for careful judicial oversight of digital evidence collection to protect constitutional rights.",
+    "metadata": {
+      "title": "State v. Thompson",
+      "court": "appeal",
+      "year": 2023,
+      "doctrine": "criminal",
+      "case_type": "criminal",
+      "jurisdiction": "state"
+    }
+  },
+  {
+    "id": "doc_006",
+    "text": "The Federal Circuit Court of Appeals decided the intellectual property case of InnovateTech v. CompetitorCorp regarding patent infringement and trade secret misappropriation. The plaintiff alleged that the defendant unlawfully used proprietary technology and violated non-disclosure agreements. The court analyzed the elements of trade secret protection under the Defend Trade Secrets Act and patent claim construction. The decision clarified the relationship between patent and trade secret protection for the same technology. The court awarded injunctive relief and damages of $2.5 million for willful infringement. This case provides important guidance on protecting intellectual property rights in competitive technology markets and the remedies available for IP violations.",
+    "metadata": {
+      "title": "InnovateTech v. CompetitorCorp",
+      "court": "appeal",
+      "year": 2022,
+      "doctrine": "intellectual_property",
+      "case_type": "civil",
+      "jurisdiction": "federal"
+    }
+  },
+  {
+    "id": "doc_007",
+    "text": "In the family law matter of Johnson v. Johnson, the Supreme Court of Texas addressed child custody determinations and the best interests of the child standard. The case involved a dispute between divorced parents over custody arrangements and relocation rights. The court examined factors including the child's emotional and physical needs, stability of home environments, and the parents' ability to cooperate in child-rearing decisions. The decision emphasized that custody determinations must prioritize the child's welfare over parental preferences. The court modified the custody arrangement to provide joint legal custody with primary physical custody to the mother. This case reinforces the paramount importance of the child's best interests in custody proceedings and provides guidance on relocation disputes.",
+    "metadata": {
+      "title": "Johnson v. Johnson",
+      "court": "supreme",
+      "year": 2021,
+      "doctrine": "family",
+      "case_type": "family",
+      "jurisdiction": "state"
+    }
+  },
+  {
+    "id": "doc_008",
+    "text": "The Tax Court addressed the issue of business expense deductions in the case of Corporate Solutions Inc. v. Commissioner of Internal Revenue. The taxpayer claimed deductions for executive compensation and business entertainment expenses that the IRS challenged as excessive and not ordinary and necessary business expenses. The court applied the reasonableness test for executive compensation and examined the business purpose requirement for entertainment expenses. The decision established guidelines for determining when compensation becomes unreasonable and therefore non-deductible. The court allowed partial deductions but disallowed excessive amounts. This case provides important precedent for businesses claiming compensation and entertainment expense deductions and the IRS's authority to challenge excessive claims.",
+    "metadata": {
+      "title": "Corporate Solutions Inc. v. Commissioner",
+      "court": "federal",
+      "year": 2020,
+      "doctrine": "tax",
+      "case_type": "tax",
+      "jurisdiction": "federal"
+    }
+  },
+  {
+    "id": "doc_009",
+    "text": "In the administrative law case of Environmental Group v. EPA, the D.C. Circuit Court of Appeals reviewed the Environmental Protection Agency's new regulations on industrial emissions. The petitioners challenged the agency's rulemaking process and the scientific basis for the new standards. The court applied the Chevron doctrine to determine the appropriate level of deference to the agency's interpretation of the Clean Air Act. The decision examined the adequacy of the agency's environmental impact assessment and public comment process. The court upheld most of the regulations but remanded certain provisions for further consideration. This case demonstrates the judicial review process for federal agency rulemaking and the balance between agency expertise and judicial oversight.",
+    "metadata": {
+      "title": "Environmental Group v. EPA",
+      "court": "appeal",
+      "year": 2023,
+      "doctrine": "administrative",
+      "case_type": "regulatory",
+      "jurisdiction": "federal"
+    }
+  },
+  {
+    "id": "doc_010",
+    "text": "The Supreme Court decided the constitutional law case of Citizens United for Privacy v. State of California, addressing the balance between privacy rights and government surveillance powers. The case challenged a state law requiring disclosure of donor information for political advocacy groups. The court examined First Amendment protections for anonymous political speech and association rights. The decision applied strict scrutiny to content-based restrictions on political expression. The court struck down the disclosure requirements as overly broad and not narrowly tailored to serve compelling government interests. This case significantly impacts campaign finance law and privacy rights in political participation, establishing important precedent for protecting anonymous political speech.",
+    "metadata": {
+      "title": "Citizens United for Privacy v. State of California",
+      "court": "supreme",
+      "year": 2022,
+      "doctrine": "constitutional",
+      "case_type": "constitutional",
+      "jurisdiction": "federal"
+    }
+  }
+]

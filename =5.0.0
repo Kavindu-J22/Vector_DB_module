@@ -1,0 +1,34 @@
+Collecting pinecone
+  Downloading pinecone-7.3.0-py3-none-any.whl.metadata (9.5 kB)
+Requirement already satisfied: certifi>=2019.11.17 in c:\users\kavin\appdata\local\programs\python\python311\lib\site-packages (from pinecone) (2024.8.30)
+Collecting pinecone-plugin-assistant<2.0.0,>=1.6.0 (from pinecone)
+  Downloading pinecone_plugin_assistant-1.7.0-py3-none-any.whl.metadata (28 kB)
+Requirement already satisfied: pinecone-plugin-interface<0.0.8,>=0.0.7 in c:\users\kavin\appdata\local\programs\python\python311\lib\site-packages (from pinecone) (0.0.7)
+Requirement already satisfied: python-dateutil>=2.5.3 in c:\users\kavin\appdata\roaming\python\python311\site-packages (from pinecone) (2.9.0.post0)
+Requirement already satisfied: typing-extensions>=3.7.4 in c:\users\kavin\appdata\local\programs\python\python311\lib\site-packages (from pinecone) (4.12.2)
+Requirement already satisfied: urllib3>=1.26.0 in c:\users\kavin\appdata\local\programs\python\python311\lib\site-packages (from pinecone) (2.2.2)
+Collecting packaging<25.0,>=24.2 (from pinecone-plugin-assistant<2.0.0,>=1.6.0->pinecone)
+  Downloading packaging-24.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting requests<3.0.0,>=2.32.3 (from pinecone-plugin-assistant<2.0.0,>=1.6.0->pinecone)
+  Downloading requests-2.32.4-py3-none-any.whl.metadata (4.9 kB)
+Requirement already satisfied: six>=1.5 in c:\users\kavin\appdata\local\programs\python\python311\lib\site-packages (from python-dateutil>=2.5.3->pinecone) (1.16.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\kavin\appdata\local\programs\python\python311\lib\site-packages (from requests<3.0.0,>=2.32.3->pinecone-plugin-assistant<2.0.0,>=1.6.0->pinecone) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\kavin\appdata\local\programs\python\python311\lib\site-packages (from requests<3.0.0,>=2.32.3->pinecone-plugin-assistant<2.0.0,>=1.6.0->pinecone) (3.8)
+Downloading pinecone-7.3.0-py3-none-any.whl (587 kB)
+   --------------------------------------- 587.6/587.6 kB 13.4 kB/s eta 0:00:00
+Downloading pinecone_plugin_assistant-1.7.0-py3-none-any.whl (239 kB)
+   --------------------------------------- 240.0/240.0 kB 37.5 kB/s eta 0:00:00
+Downloading packaging-24.2-py3-none-any.whl (65 kB)
+   ---------------------------------------- 65.5/65.5 kB 88.3 kB/s eta 0:00:00
+Downloading requests-2.32.4-py3-none-any.whl (64 kB)
+   ---------------------------------------- 64.8/64.8 kB 139.7 kB/s eta 0:00:00
+Installing collected packages: requests, packaging, pinecone-plugin-assistant, pinecone
+  Attempting uninstall: requests
+    Found existing installation: requests 2.31.0
+    Uninstalling requests-2.31.0:
+      Successfully uninstalled requests-2.31.0
+  Attempting uninstall: packaging
+    Found existing installation: packaging 24.1
+    Uninstalling packaging-24.1:
+      Successfully uninstalled packaging-24.1
+Successfully installed packaging-24.2 pinecone-7.3.0 pinecone-plugin-assistant-1.7.0 requests-2.32.4

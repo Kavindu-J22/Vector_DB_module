@@ -1,0 +1,74 @@
+# Vector Database Module Configuration
+
+# Model Configuration
+models:
+  # Classification model settings
+  classifier:
+    model_name: "bert-base-uncased"  # Can be changed to "nlpaueb/legal-bert-base-uncased"
+    num_labels: 10  # Adjust based on your classification categories
+    max_length: 512
+    batch_size: 16
+    learning_rate: 2e-5
+    num_epochs: 3
+    
+  # Embedding model settings
+  embedder:
+    model_name: "sentence-transformers/all-MiniLM-L6-v2"  # Can use "nlpaueb/legal-bert-base-uncased"
+    max_length: 512
+    batch_size: 32
+    
+# Vector Database Configuration
+vector_db:
+  # FAISS settings
+  faiss:
+    index_type: "IndexFlatIP"  # Inner Product for cosine similarity
+    dimension: 384  # Adjust based on embedding model
+    save_path: "./data/faiss_index"
+    
+  # Pinecone settings
+  pinecone:
+    api_key: "pcsk_LPH9H_EJFoGtHEzGqGbRHg8tnu3ShsVfR9Si3ajinTHwBSh7r5ZDR5E8xPM3ubqszK5XL"
+    environment: "us-east-1-aws"  # Adjust based on your Pinecone setup
+    index_name: "legal-documents"
+    dimension: 384
+    metric: "cosine"
+    
+# Data Configuration
+data:
+  # Input data paths
+  raw_documents_path: "./data/raw_documents/"
+  processed_documents_path: "./data/processed_documents/"
+  
+  # Classification labels
+  doctrines: ["contract", "tort", "property", "criminal", "constitutional", "administrative", "tax", "family", "employment", "intellectual_property"]
+  court_levels: ["supreme", "appeal", "district", "federal", "state"]
+  
+  # Text processing
+  chunk_size: 512
+  chunk_overlap: 50
+  min_chunk_length: 100
+  
+# Retrieval Configuration
+retrieval:
+  # Hybrid search weights
+  vector_weight: 0.7
+  bm25_weight: 0.3
+  
+  # Search parameters
+  top_k: 10
+  similarity_threshold: 0.5
+  
+# Evaluation Configuration
+evaluation:
+  # Metrics to compute
+  metrics: ["recall_at_5", "recall_at_10", "mrr", "ndcg_at_5", "precision_at_5"]
+  
+  # Test queries and expected results
+  test_queries_path: "./data/test_queries.json"
+  ground_truth_path: "./data/ground_truth.json"
+  
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "{time:YYYY-MM-DD HH:mm:ss} | {level} | {name}:{function}:{line} - {message}"
+  file: "./logs/vector_db.log"

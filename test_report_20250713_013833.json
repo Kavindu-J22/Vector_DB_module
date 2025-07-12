@@ -1,0 +1,81 @@
+{
+  "timestamp": "2025-07-13T01:38:33.301284",
+  "duration": "0:00:00.120115",
+  "total_tests": 6,
+  "passed_tests": 5,
+  "failed_tests": 1,
+  "success_rate": 0.8333333333333334,
+  "total_execution_time": 0.11707544326782227,
+  "component_results": [
+    {
+      "test_name": "Enhanced Embedder",
+      "passed": true,
+      "execution_time": 0.06295609474182129,
+      "error_message": "",
+      "details": {
+        "embedding_dimension": 384,
+        "batch_size_tested": 100,
+        "legal_features_detected": true
+      }
+    },
+    {
+      "test_name": "Enhanced Classifier",
+      "passed": false,
+      "execution_time": 0.0,
+      "error_message": "Enhanced Classifier test failed: Classification accuracy too low: 0.67",
+      "details": null
+    },
+    {
+      "test_name": "Pinecone Integration",
+      "passed": true,
+      "execution_time": 0.0005159378051757812,
+      "error_message": "",
+      "details": {
+        "vectors_stored": 2,
+        "search_results": 2,
+        "mock_implementation": true
+      }
+    },
+    {
+      "test_name": "Evaluation Framework",
+      "passed": true,
+      "execution_time": 0.0,
+      "error_message": "",
+      "details": {
+        "precision": 0.5,
+        "recall": 0.6666666666666666,
+        "f1_score": 0.5714285714285715,
+        "map_score": 0.75,
+        "mrr_score": 0.8,
+        "ndcg_score": 0.78
+      }
+    },
+    {
+      "test_name": "Performance Optimization",
+      "passed": true,
+      "execution_time": 0.05218863487243652,
+      "error_message": "",
+      "details": {
+        "avg_batch_time_ms": 10.437726974487305,
+        "memory_usage_mb": 128,
+        "cache_hit_rate": 0.85,
+        "parallel_speedup": 3.5
+      }
+    }
+  ],
+  "integration_results": [
+    {
+      "test_name": "End-to-End Pipeline",
+      "passed": true,
+      "execution_time": 0.0014147758483886719,
+      "error_message": "",
+      "details": {
+        "documents_processed": 3,
+        "embeddings_generated": 3,
+        "classifications_made": 3,
+        "search_results": 2,
+        "pipeline_steps": 7
+      }
+    }
+  ]
+}

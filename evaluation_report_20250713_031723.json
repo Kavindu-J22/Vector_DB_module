@@ -1,0 +1,150 @@
+{
+  "total_queries": 8,
+  "query_results": [
+    {
+      "query": "employment contract termination breach",
+      "expected_docs": [
+        "contract_001",
+        "contract_002"
+      ],
+      "retrieved_docs": [
+        "contract_001",
+        "contract_002",
+        "property_001",
+        "tort_001",
+        "constitutional_001"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "f1": 0.5714285714285715,
+      "description": "Should find contract law cases about employment and sales contracts"
+    },
+    {
+      "query": "medical malpractice negligence standard care",
+      "expected_docs": [
+        "tort_001",
+        "tort_002"
+      ],
+      "retrieved_docs": [
+        "tort_001",
+        "property_001",
+        "contract_001",
+        "constitutional_001",
+        "constitutional_002"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "f1": 0.28571428571428575,
+      "description": "Should find tort law cases about medical malpractice and product liability"
+    },
+    {
+      "query": "fourth amendment search warrant",
+      "expected_docs": [
+        "constitutional_001"
+      ],
+      "retrieved_docs": [
+        "constitutional_001",
+        "property_001",
+        "tort_001",
+        "contract_001",
+        "contract_002"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "f1": 0.33333333333333337,
+      "description": "Should find constitutional law case about Fourth Amendment"
+    },
+    {
+      "query": "miranda rights custodial interrogation",
+      "expected_docs": [
+        "criminal_001"
+      ],
+      "retrieved_docs": [
+        "criminal_001",
+        "constitutional_002",
+        "property_001",
+        "contract_001",
+        "tort_001"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "f1": 0.33333333333333337,
+      "description": "Should find criminal law case about Miranda rights"
+    },
+    {
+      "query": "property ownership adverse possession",
+      "expected_docs": [
+        "property_001"
+      ],
+      "retrieved_docs": [
+        "property_001",
+        "contract_001",
+        "tort_001",
+        "constitutional_001",
+        "constitutional_002"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "f1": 0.33333333333333337,
+      "description": "Should find property law case about adverse possession"
+    },
+    {
+      "query": "constitutional rights free speech",
+      "expected_docs": [
+        "constitutional_001",
+        "constitutional_002"
+      ],
+      "retrieved_docs": [
+        "constitutional_002",
+        "property_001",
+        "contract_001",
+        "tort_001",
+        "constitutional_001"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "f1": 0.5714285714285715,
+      "description": "Should find constitutional law cases about rights"
+    },
+    {
+      "query": "contract law UCC sales",
+      "expected_docs": [
+        "contract_002",
+        "contract_001"
+      ],
+      "retrieved_docs": [
+        "tort_002",
+        "contract_001",
+        "contract_002",
+        "criminal_001",
+        "tort_001"
+      ],
+      "precision": 0.4,
+      "recall": 1.0,
+      "f1": 0.5714285714285715,
+      "description": "Should find contract law cases, especially UCC sales"
+    },
+    {
+      "query": "strict liability defective product",
+      "expected_docs": [
+        "tort_002"
+      ],
+      "retrieved_docs": [
+        "tort_002",
+        "property_001",
+        "contract_001",
+        "tort_001",
+        "constitutional_001"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "f1": 0.33333333333333337,
+      "description": "Should find product liability case"
+    }
+  ],
+  "overall_metrics": {
+    "avg_precision": 0.275,
+    "avg_recall": 0.9375,
+    "avg_f1": 0.4166666666666668
+  }
+}

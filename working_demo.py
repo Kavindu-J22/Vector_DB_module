@@ -88,6 +88,52 @@ class WorkingVectorDatabaseDemo:
                 "court": "appellate_court",
                 "year": 2020,
                 "jurisdiction": "state"
+            },
+            # ADDITIONAL LEGAL DOCUMENTS - EXPANDED COLLECTION
+            {
+                "id": "doc_006",
+                "title": "Employment Contract Breach - Wrongful Termination",
+                "content": "Employee Sarah Johnson was terminated without cause despite having a written employment contract requiring 30 days notice and just cause for termination. The contract specified severance pay for termination without cause. Plaintiff seeks damages for breach of contract including lost wages, benefits, and contractually promised severance pay.",
+                "doctrine": "contract_law",
+                "court": "district_court",
+                "year": 2023,
+                "jurisdiction": "state"
+            },
+            {
+                "id": "doc_007",
+                "title": "Medical Malpractice - Surgical Negligence",
+                "content": "Patient underwent routine gallbladder surgery when surgeon failed to properly identify anatomical landmarks and severed the bile duct, causing serious complications. Expert testimony established that the surgeon's conduct fell below the accepted standard of care for laparoscopic procedures.",
+                "doctrine": "tort_law",
+                "court": "superior_court",
+                "year": 2023,
+                "jurisdiction": "state"
+            },
+            {
+                "id": "doc_008",
+                "title": "Fourth Amendment - Warrantless Vehicle Search",
+                "content": "Defendant was stopped for traffic violation when officer detected marijuana odor and conducted warrantless vehicle search discovering illegal substances. The automobile exception allows warrantless searches when there is probable cause to believe vehicles contain contraband.",
+                "doctrine": "constitutional_law",
+                "court": "supreme_court",
+                "year": 2023,
+                "jurisdiction": "federal"
+            },
+            {
+                "id": "doc_009",
+                "title": "Software License Agreement Breach",
+                "content": "TechStart Inc. violated exclusive software licensing agreement by incorporating licensed software into their product and selling to competitors. License prohibited sublicensing without written consent. Case involves software licensing and intellectual property rights.",
+                "doctrine": "contract_law",
+                "court": "federal_court",
+                "year": 2023,
+                "jurisdiction": "federal"
+            },
+            {
+                "id": "doc_010",
+                "title": "Product Liability - Defective Automotive Design",
+                "content": "Plaintiff injured when airbag system failed to deploy during frontal collision due to defectively designed sensor. Under strict liability, manufacturers are liable for injuries from defective products regardless of negligence.",
+                "doctrine": "tort_law",
+                "court": "federal_court",
+                "year": 2023,
+                "jurisdiction": "federal"
             }
         ]
         
